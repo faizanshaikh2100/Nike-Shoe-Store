@@ -53,7 +53,10 @@ function Hero() {
         className={`relative flex-1 flex flex-col justify-center items-center rounded-xl xl:min-h-screen max-xl:py-40 pt-14 bg-[#97929a]`}
       >
         <video width="100%" autoPlay loop muted playsInline>
-          <source src="src\assets\clips\BannerShoe.mp4" type="video/mp4" />
+          <source
+            src="nike-shoe-store2\src\assets\clips\BannerShoe.mp4"
+            type="video/mp4"
+          />
         </video>
 
         <div className="flex items-center justify-between absolute top-[88%] gap-3 mt-2">
