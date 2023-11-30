@@ -54,7 +54,7 @@ function Hero() {
       >
         <video width="100%" autoPlay loop muted playsInline>
           <source
-            src="nike-shoe-store2\src\assets\clips\BannerShoe.mp4"
+            src="https://github.com/faizanshaikh2100/Nike-Shoe-Store/blob/master/src/assets/clips/BannerShoe.mp4"
             type="video/mp4"
           />
         </video>
