@@ -19,7 +19,7 @@ export default function App() {
         <section className="xl:p-1 wide:padding-r padding-b">
           <Hero />
         </section>
-        <section className="padding">
+        <section className="pl-5 pt-36">
           <PopularProduct />
         </section>
         <section className="padding">

@@ -7,6 +7,7 @@ import { bigShoe3 } from "../assets/images";
 import Button from "../components/Button";
 import { statistics, shoes } from "../constants";
 import ShoeCard from "../components/ShoeCard";
+import BannerShoe from "../components/BannerShoe";
 
 function Hero() {
   const [currentShoe, setCurrentShoe] = useState(bigShoe1);
@@ -49,28 +50,16 @@ function Hero() {
         </div>
       </div>
 
+      {/* <BannerShoe /> */}
       <div
         className={`relative flex-1 flex flex-col justify-center items-center rounded-xl xl:min-h-screen max-xl:py-40 pt-14 bg-[#97929a]`}
       >
         <video width="100%" autoPlay loop muted playsInline>
           <source
-            src="https://github.com/faizanshaikh2100/Nike-Shoe-Store/blob/master/src/assets/clips/BannerShoe.mp4"
+            src="https://res.cloudinary.com/dtvux1tgv/video/upload/v1701516598/walkinstyle%20store/BannerShoe_cfuxg7.mp4"
             type="video/mp4"
           />
         </video>
-
-        <div className="flex items-center justify-between absolute top-[88%] gap-3 mt-2">
-          {shoes.map((shoe, index) => (
-            <ShoeCard
-              key={index}
-              src={shoe.bigShoe}
-              width={150}
-              className={"bg-card bg-center bg-cover cursor-pointer"}
-              handleClick={() => handleShoeChange(shoe.bigShoe)}
-              selectedShoe={currentShoe}
-            />
-          ))}
-        </div>
       </div>
     </section>
   );
